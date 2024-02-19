@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "id": 2,
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "id": 3,
+    "title": "JS",
+    "imageSrc": "skills/JS.svg"
+  },
+  {
+    "id": 4,
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "id": 5,
+    "title": "Redux",
+    "imageSrc": "skills/redux-logo.png"
+  },
+  {
+    "id": 5,
+    "title": "React Native",
+    "imageSrc": "skills/react-native-logo.png"
+  },
+  {
+    "id": 6,
+    "title": "Node JS",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "id": 6,
+    "title": "Express",
+    "imageSrc": "skills/express-js-logo-copia.png"
+  },
+  {
+    "id": 7,
+    "title": "Tailwind CSS",
+    "imageSrc": "skills/Tailwind_CSS.png"
+  },
+  {
+    "id": 8,
+    "title": "Sass",
+    "imageSrc": "skills/Sass_logo.png"
+  },
+  {
+    "id": 8,
+    "title": "Typescript",
+    "imageSrc": "skills/typescript.svg"
+  },
+  {
+    "id": 9,
+    "title": "GitHub",
+    "imageSrc": "skills/github-copia.png"
+  },
+  {
+    "id": 9,
+    "title": "Figma",
+    "imageSrc": "skills/figma.png"
+  },
+  {
+    "id": 10,
+    "title": "Photoshop",
+    "imageSrc": "skills/Adobe-Photoshop-Logo-700x394.png"
+  },
+  {
+    "id": 10,
+    "title": "Office 365",
+    "imageSrc": "skills/microsoft-365.png"
+  }
+]

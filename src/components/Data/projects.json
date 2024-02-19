@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Proyecto E-Commerce React",
+    "imageSrc": "projects/react-e-commerce.png",
+    "description": "Proyecto E-Commerce creado con React y Firebase. Utilicé librerías como React Spinners, SweetAlert2 y FontAwesome",
+    "skills": ["React", "Tailwind CSS", "Firebase"],
+    "demoStyle": "demo",
+    "demo": "https://ecommerce-proyecto-retro-react-vite.vercel.app/",
+    "source": "https://github.com/guidogattas/Ecommerce-Proyecto-Retro-React-Vite"
+  },
+  {
+    "id": 2,
+    "title": "Proyecto Movies App React-Native",
+    "imageSrc": "projects/react-native-movies-app.png",
+    "description": "Esta es una aplicación móvil desarrollada con React Native, Firebase y Expo, que utiliza la API de TMDB para búsqueda y exploración de películas.",
+    "skills": ["React Native", "Firebase", "Expo", "Redux"],
+    "demoStyle": "apk",
+    "demo": "https://expo.dev/artifacts/eas/wfcyoBRyK2vGnoMTkojTcu.apk",
+    "source": "https://github.com/guidogattas/react-native-ecommerce-coderhouse-gattas"
+  },
+  {
+    "id": 3,
+    "title": "Proyecto Age of Empires 2 Fan Page",
+    "imageSrc": "projects/html-age-of-empires.png",
+    "description": "Este fué mi primer acercamiento con el mundo de programación. Está diseñado en Figma y hecho con HTML y CSS (Sass).",
+    "skills": ["HTML", "CSS", "Sass"],
+    "demoStyle": "demo",
+    "demo": "https://guidogattas.github.io/Age-of-Empires-2/",
+    "source": "https://github.com/guidogattas/Age-of-Empires-2"
+  }
+]
