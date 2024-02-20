@@ -3,8 +3,6 @@
 .container {
   color: var(--color-text);
   margin-top: 79px;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .title {
@@ -26,7 +24,7 @@
 }
 
 .skills {
-  width: 45%;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   gap: 37px;
