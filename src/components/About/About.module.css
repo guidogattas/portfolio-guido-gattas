@@ -75,19 +75,23 @@
   margin-left: 20px;
 }
 
+
+
 .aboutItemText a {
 
   text-decoration: none;
   color: var(--color-text);
-  background-color: var(--color-secondary);
-  border-radius: 80%;
-  padding: 10px 20px;
-  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 100px;
+  background: var(--color-primary);
+  padding: 12px 22px;
   transition: 0.5s;
 }
 
 .aboutItemText a:hover {
-  background-color: var(--color-primary);
+  color: var(--color-primary);
+  background: var(--color-text);
 }
 
 .aboutItem p {
