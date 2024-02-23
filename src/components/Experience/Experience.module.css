@@ -138,6 +138,14 @@
     flex-direction: row;
     justify-content: center;
   }
+  .skillImageContainer {
+    width: 90px;
+    height: 90px;
+  }
+  .skillImageContainer img {
+    width: 50px;
+    padding: 1px;
+  }
 
   .history {
     margin-left: 0;
