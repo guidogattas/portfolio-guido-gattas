@@ -27,12 +27,7 @@
   margin-top: 40px;
 }
 
-.aboutImage {
-  width: 25%;
-  max-width: 200px;
-  margin-right: 50px;
-  border-radius: 40%;
-}
+
 
 .aboutItems {
   color: var(--color-text);
@@ -118,9 +113,6 @@ ul li {
     flex-direction: column;
   }
 
-  .aboutImage {
-    display: none;
-  }
 
   .aboutItems {
     margin-top: 29px;

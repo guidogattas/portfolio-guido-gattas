@@ -1,7 +1,4 @@
-import React from 'react'
-
 import { AboutCard } from './AboutCard'
-import { getImageUrl } from '../../utils'
 import styles from './About.module.css'
 
 
@@ -11,7 +8,7 @@ export const About = () => {
 
             <h2 className={styles.title}>CURSOS REALIZADOS</h2>
             <div className={styles.content}>
-                <img src={getImageUrl("img/GG.png")} alt="image of me" className={styles.aboutImage} />
+
                 <ul className={styles.aboutItems}>
                     <AboutCard
                         iconImg="img/CoderHouse.png" title="Desarrollo Web: HTML, CSS y Maquetación Web"

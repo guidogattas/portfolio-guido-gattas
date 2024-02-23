@@ -1,14 +1,11 @@
-import React from 'react'
 import { getImageUrl } from '../../utils'
 import styles from './Footer.module.css'
 
 export const Footer = () => {
   return (
     <footer id="contact" className={styles.container}>
-      <div className={styles.text}>
-        <h2>Contactame </h2>
-        <p>No dudes en comunicarte!</p>
-      </div>
+      <img src={getImageUrl("img/GG.png")} alt="image of me" className={styles.aboutImage} />
+
       <ul className={styles.links}>
         <li className={styles.link}>
           <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
