@@ -9,7 +9,7 @@
     box-shadow: 0 16px 14px 0 #04152d;
     padding: 18px 24px;
     max-width: 545px;
-    height: 80vh;
+    height: 90vh;
     transition: 0.5s;
     align-items: center;
     justify-content: space-evenly;
@@ -25,8 +25,9 @@
 
 .image {
     margin-bottom: 26px;
+    margin-top: 26px;
     max-width: 90%;
-    max-height: 400px;
+    max-height: 340px;
 }
 
 .title {
@@ -61,9 +62,11 @@
 
 .links {
     width: 100%;
-    margin-top: 26px;
+    margin-top: 36px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-around;
+
 }
 
 .link {

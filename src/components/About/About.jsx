@@ -44,6 +44,11 @@ export const About = () => {
                         </div>}
                         link="https://www.udemy.com/course/master-en-diseno-digital-con-adobe-photoshop-cc/"
                     />
+                    <AboutCard
+                        iconImg="img/CodoACodo.png" title="Big Data / Data Analytics" description={<div>
+                            <p> Cursando en la actualidad.</p>
+                        </div>}
+                    />
                 </ul>
             </div>
 

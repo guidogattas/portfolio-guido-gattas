@@ -1,5 +1,5 @@
 import skills from "../Data/skills.json"
-import history from "../Data/history.json"
+// import history from "../Data/history.json"
 import { getImageUrl } from '../../utils'
 import styles from './Experience.module.css'
 

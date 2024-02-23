@@ -12,7 +12,7 @@
   {
     "id": 2,
     "title": "Proyecto Movies App React-Native",
-    "imageSrc": "projects/react-native-movies-app.png",
+    "imageSrc": "projects/react-native-movies-app2.png",
     "description": "Esta es una aplicación móvil desarrollada con React Native, Firebase y Expo, que utiliza la API de TMDB para búsqueda y exploración de películas.",
     "skills": ["React Native", "Firebase", "Expo", "Redux"],
     "demoStyle": "apk",
@@ -28,5 +28,35 @@
     "demoStyle": "demo",
     "demo": "https://guidogattas.github.io/Age-of-Empires-2/",
     "source": "https://github.com/guidogattas/Age-of-Empires-2"
+  },
+  {
+    "id": 4,
+    "title": "Proyecto Todo List. Challenge Front-end Mentor ",
+    "imageSrc": "projects/todo-list.png",
+    "description": "Este es un proyecto Todo List, desarrollado utilizando React con Vite como el bundler y Tailwind CSS como el framework de estilos. Es una aplicación simple que permite crear, filtrar y eliminar tareas. Utilicé para el drag and drop @hello-pangea/dnd",
+    "skills": ["React", "Tailwind CSS", "Sass"],
+    "demoStyle": "demo",
+    "demo": "https://vite-react-tw-todo-frontend-mentor.netlify.app/",
+    "source": "https://github.com/guidogattas/vite-react-tw-todo-frontend-mentor/blob/main/README.md"
+  },
+  {
+    "id": 5,
+    "title": "Proyecto Formularios de tareas con descripciones. ",
+    "imageSrc": "projects/formulario-react.png",
+    "description": "Proyecto similar al de Todo List, con algunas modificaciones, me sirvió para practicar para realizar el Todo List. Se utilizó Sweet Alert para mostrar al usuario las acciones realizadas.",
+    "skills": ["React", "Tailwind CSS"],
+    "demoStyle": "demo",
+    "demo": "https://vite-react-tw-todo-frontend-mentor.netlify.app/",
+    "source": "https://github.com/guidogattas/vite-react-tw-todo-frontend-mentor/blob/main/README.md"
+  },
+  {
+    "id": 6,
+    "title": "Proyecto creado con JS. Tienda de CDs.",
+    "imageSrc": "projects/js-tower.png",
+    "description": "Este fué mi segundo proyecto, creado con JS. Simula una tienda de CDs básica, que permite al usuario agregar CDs al carrito de compras. Calcular el total de la compra. Permite realizar una búsqueda de los CDs disponibles. Implementé Sweet Alerts para mostrar al usuario según ciertas interacciones.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demoStyle": "demo",
+    "demo": "https://guidogattas.github.io/Proyecto-JS-Tienda-CDS/",
+    "source": "https://github.com/guidogattas/Proyecto-JS-Tienda-CDS"
   }
 ]
