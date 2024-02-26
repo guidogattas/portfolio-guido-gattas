@@ -46,8 +46,8 @@
     "description": "Proyecto similar al de Todo List, con algunas modificaciones, me sirvió para practicar para realizar el Todo List. Se utilizó Sweet Alert para mostrar al usuario las acciones realizadas.",
     "skills": ["React", "Tailwind CSS"],
     "demoStyle": "demo",
-    "demo": "https://vite-react-tw-todo-frontend-mentor.netlify.app/",
-    "source": "https://github.com/guidogattas/vite-react-tw-todo-frontend-mentor/blob/main/README.md"
+    "demo": "https://formulario-react-gattas.netlify.app/",
+    "source": "https://github.com/guidogattas/Formulario-React"
   },
   {
     "id": 6,
