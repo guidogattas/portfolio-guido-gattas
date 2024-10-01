@@ -1,16 +1,16 @@
+import styles from './App.module.css';
+import { About } from './components/About/About';
+import { Hero } from './components/Hero/Hero';
+import { Navbar } from './components/Navbar/Navbar';
+import { Experience } from './components/Experience/Experience';
+import { Footer } from './components/Footer/Footer';
+import { Projects } from './components/Projects/Projects';
+import { LanguageProvider } from './components/LanguageProvider/LanguageProvider';
 
-import styles from './App.module.css'
-import { About } from './components/About/About'
-import { Hero } from './components/Hero/Hero'
-import { Navbar } from './components/Navbar/Navbar'
-import { Experience } from './components/Experience/Experience'
-import { Footer } from './components/Footer/Footer'
-import { Projects } from './components/Projects/Projects'
 
 function App() {
-
   return (
-    <>
+    <LanguageProvider>
       <div className={styles.App}>
         <Navbar />
         <Hero />
@@ -19,8 +19,9 @@ function App() {
         <Projects />
         <Footer />
       </div>
-    </>
-  )
+    </LanguageProvider>
+  );
 }
 
-export default App
+export default App;
+
