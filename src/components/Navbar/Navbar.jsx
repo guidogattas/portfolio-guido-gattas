@@ -2,6 +2,9 @@ import { useState, useContext } from 'react';
 import styles from './Navbar.module.css';
 import { getImageUrl } from '../../utils';
 import { LanguageContext } from '../LanguageProvider/LanguageProvider';
+import spainFlag from '../../../assets/img/spain.png';
+import ukFlag from '../../../assets/img/united-kingdom.png';
+
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,12 +17,12 @@ export const Navbar = () => {
         <button
           onClick={changeToSpanish}
         >
-          <img src="./assets/img/spain.png" alt="uk flag" />
+          <img src={spainFlag} alt="uk flag" />
         </button>
         <button
           onClick={changeToEnglish}
         >
-          <img src="./assets/img/united-kingdom.png" alt="uk flag" />
+          <img src={ukFlag} alt="uk flag" />
         </button>
       </div>
       <div className={styles.menu}>
