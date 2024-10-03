@@ -33,7 +33,6 @@
 }
 
 .lang img {
-    /* object-fit: contain; */
     width: 30px;
     height: 30px;
     cursor: pointer;
@@ -42,7 +41,7 @@
 .lang button {
     padding: 20px;
     width: 30px; 
-    height: 30px; /* Igual al width para mantener un cuadrado */
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
