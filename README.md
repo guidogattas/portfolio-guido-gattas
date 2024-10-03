@@ -1,4 +1,4 @@
-Portfolio - Guido Gattas
+#Portfolio - Guido Gattas
 Bienvenido a mi portfolio, donde muestro mis proyectos y habilidades en desarrollo web y móvil. Este sitio ha sido construido utilizando React y Vite, ofreciendo un rendimiento óptimo y una experiencia de usuario fluida.
 
 Descripción
@@ -50,23 +50,16 @@ Para ejecutar este proyecto localmente:
 
 Clona este repositorio:
 
-bash
 Copiar código
 git clone https://github.com/tu-usuario/portfolio-guido-gattas.git
 Navega al directorio del proyecto:
 
-bash
-Copiar código
 cd portfolio-guido-gattas
 Instala las dependencias:
 
-bash
-Copiar código
 npm install
 Inicia el servidor de desarrollo:
 
-bash
-Copiar código
 npm run dev
 Abre tu navegador y visita http://localhost:3000.
 
