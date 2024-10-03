@@ -19,7 +19,7 @@ export const Hero = () => {
                         : "I'm a Fullstack developer with skills in React JS, React Native, Node JS, and Adobe Photoshop CS6. I have experience with JS and React by creating several personal projects, and I love learning new technologies and staying up-to-date in the programming world. I have also worked on projects in React Native and Node JS."
                     }
                 </p>
-                <a href="mailto:guido.gattas@gmail.com" className={styles.contact}>
+                <a href="mailto:guido.gattas@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.contact}>
                     {language === "es" ? "Contactame" : "Contact me"}
                 </a>
             </div>

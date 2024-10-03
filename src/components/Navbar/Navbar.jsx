@@ -14,12 +14,12 @@ export const Navbar = () => {
         <button
           onClick={changeToSpanish}
         >
-          ES
+          <img src="../../../assets/img/spain.png" alt="uk flag" />
         </button>
         <button
           onClick={changeToEnglish}
         >
-          EN
+          <img src="../../../assets/img/united-kingdom.png" alt="uk flag" />
         </button>
       </div>
       <div className={styles.menu}>

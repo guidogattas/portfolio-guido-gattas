@@ -26,7 +26,6 @@ Este portfolio destaca mis cursos realizados y proyectos, presentando mis habili
 - **Navegación Intuitiva:** Navegación sencilla con un menú responsive que se adapta a dispositivos móviles.
 - **Cambio de Idioma:** Alterna entre español e inglés para mejorar la accesibilidad.
 - **Visualización de Proyectos:** Muestra mis proyectos realizados con descripciones detalladas y enlaces a cursos relevantes.
-- **Optimización SEO:** Estructura adecuada para SEO, facilitando la indexación por parte de motores de búsqueda.
 
 ## Cursos Realizados
 
