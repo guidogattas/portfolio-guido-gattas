@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "React E-Commerce Project",
+    "imageSrc": "projects/react-e-commerce.png",
+    "description": "E-Commerce project created with React and Firebase. I used libraries like React Spinners, SweetAlert2, and FontAwesome.",
+    "skills": ["React", "Tailwind CSS", "Firebase"],
+    "demoStyle": "demo",
+    "demo": "https://ecommerce-proyecto-retro-react-vite.vercel.app/",
+    "source": "https://github.com/guidogattas/Ecommerce-Proyecto-Retro-React-Vite"
+  },
+  {
+    "id": 2,
+    "title": "Movies App React-Native Project",
+    "imageSrc": "projects/react-native-movies-app2.png",
+    "description": "This is a mobile application developed with React Native, Firebase, and Expo, which uses the TMDB API for movie search and exploration.",
+    "skills": ["React Native", "Firebase", "Expo", "Redux"],
+    "demoStyle": "apk",
+    "demo": "https://expo.dev/artifacts/eas/u8QrmwiS8GbGXfLrqoAw95.apk",
+    "source": "https://github.com/guidogattas/react-native-ecommerce-coderhouse-gattas"
+  },
+  {
+    "id": 3,
+    "title": "Age of Empires 2 Fan Page Project",
+    "imageSrc": "projects/html-age-of-empires.png",
+    "description": "This was my first approach to the world of programming. It is designed in Figma and built with HTML and CSS (Sass).",
+    "skills": ["HTML", "CSS", "Sass"],
+    "demoStyle": "demo",
+    "demo": "https://guidogattas.github.io/Age-of-Empires-2/",
+    "source": "https://github.com/guidogattas/Age-of-Empires-2"
+  },
+  {
+    "id": 4,
+    "title": "Todo List Project - Frontend Mentor Challenge",
+    "imageSrc": "projects/todo-list.png",
+    "description": "This is a Todo List project, developed using React with Vite as the bundler and Tailwind CSS as the styling framework. It's a simple app that allows creating, filtering, and deleting tasks. I used @hello-pangea/dnd for drag and drop functionality.",
+    "skills": ["React", "Tailwind CSS", "Sass"],
+    "demoStyle": "demo",
+    "demo": "https://vite-react-tw-todo-frontend-mentor.netlify.app/",
+    "source": "https://github.com/guidogattas/vite-react-tw-todo-frontend-mentor/blob/main/README.md"
+  },
+  {
+    "id": 5,
+    "title": "Task Forms Project with Descriptions",
+    "imageSrc": "projects/formulario-react.png",
+    "description": "Similar project to the Todo List, with some modifications. It helped me practice for creating the Todo List. Sweet Alert was used to show user feedback on performed actions.",
+    "skills": ["React", "Tailwind CSS"],
+    "demoStyle": "demo",
+    "demo": "https://formulario-react-gattas.netlify.app/",
+    "source": "https://github.com/guidogattas/Formulario-React"
+  },
+  {
+    "id": 6,
+    "title": "JS Project - CD Store",
+    "imageSrc": "projects/js-tower.png",
+    "description": "This was my second project, created with JS. It simulates a basic CD store, allowing users to add CDs to the shopping cart, calculate the total purchase amount, and search for available CDs. I implemented Sweet Alerts to notify users based on certain interactions.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demoStyle": "demo",
+    "demo": "https://guidogattas.github.io/Proyecto-JS-Tienda-CDS/",
+    "source": "https://github.com/guidogattas/Proyecto-JS-Tienda-CDS"
+  }
+]

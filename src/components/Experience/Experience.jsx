@@ -2,11 +2,16 @@ import skills from "../Data/skills.json"
 // import history from "../Data/history.json"
 import { getImageUrl } from '../../utils'
 import styles from './Experience.module.css'
+import { useContext } from "react";
+import { LanguageContext } from "../LanguageProvider/LanguageProvider";
 
 export const Experience = () => {
+
+    const { language } = useContext(LanguageContext);
+
     return (
         <section id='experience' className={styles.container}>
-            <h2 className={styles.title}>  HABILIDADES / EXPERIENCIA</h2>
+            <h2 className={styles.title}>{language === 'es' ? 'HABILIDADES / EXPERIENCIA' : 'SKILLS / EXPERIENCE'}</h2>
             <div className={styles.content}>
                 <ul className={styles.skills}>
                     {skills.map((skill) => {
@@ -20,6 +25,7 @@ export const Experience = () => {
                         )
                     })}
                 </ul>
+
 
                 {/* HISTORY */}
                 {/* <ul className={styles.history}>

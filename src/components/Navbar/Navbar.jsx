@@ -5,22 +5,19 @@ import { LanguageContext } from '../LanguageProvider/LanguageProvider';
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-
-  const { language, toggleLanguage } = useContext(LanguageContext);
+  const { language, changeToEnglish, changeToSpanish } = useContext(LanguageContext);
 
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">Portfolio</a>
       <div className={styles.lang}>
         <button
-          className={language === 'es' ? styles.active : ''}
-          onClick={toggleLanguage}
+          onClick={changeToSpanish}
         >
           ES
         </button>
         <button
-          className={language === 'en' ? styles.active : ''}
-          onClick={toggleLanguage}
+          onClick={changeToEnglish}
         >
           EN
         </button>
