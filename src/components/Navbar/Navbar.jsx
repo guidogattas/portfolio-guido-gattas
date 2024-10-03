@@ -8,7 +8,7 @@ import ukFlag from '../../../assets/img/united-kingdom.png';
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const { language, changeToEnglish, changeToSpanish } = useContext(LanguageContext);
+  const { language, changeToEnglish, changeToSpanish } = useContext(LanguageContext) || {};
 
   return (
     <nav className={styles.navbar}>
@@ -17,7 +17,7 @@ export const Navbar = () => {
         <button
           onClick={changeToSpanish}
         >
-          <img src={spainFlag} alt="uk flag" />
+          <img src={spainFlag} alt="spain flag" />
         </button>
         <button
           onClick={changeToEnglish}
@@ -37,7 +37,7 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(!menuOpen)}
         />
         <ul
-          className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+          className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ''}`}
           onClick={() => setMenuOpen(false)}
         >
           <li>
