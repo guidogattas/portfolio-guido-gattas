@@ -103,6 +103,21 @@ export const About = () => {
                             </div>
                         }
                     />
+                    <AboutCard
+                        iconImg="img/ed_it.jpg"
+                        title={language === 'es' ? "Inteligencia Artificial y Productividad" : "Artificial Intelligence and Productivity"}
+                        description={
+                            <div>
+                                <p>
+                                    {language === 'es'
+                                        ? "Este curso ofreció una formación exhaustiva en Inteligencia Artificial, con un enfoque en productividad mediante herramientas AI en diversas aplicaciones. Abarcamos desde los fundamentos de la IA y LLM (Modelos de Lenguaje Extenso), hasta el Prompt Engineering, el uso de extensiones para aumentar la eficiencia en plataformas como LinkedIn, Gmail y Google Sheets / Excel, así como la creación de contenido multimedia y la generación de código. El curso incluyó prácticas en clase, proyectos integradores, y desafíos que permitieron aplicar los conocimientos. También exploramos aspectos avanzados como el Machine Learning y la computación en la nube, además de importantes consideraciones éticas en IA."
+                                        : "This course offered comprehensive training in Artificial Intelligence with a focus on productivity through AI tools across various applications. We covered fundamentals of AI and LLM (Large Language Models), Prompt Engineering, the use of productivity extensions for platforms like LinkedIn, Gmail, and Google Sheets / Excel, as well as multimedia content creation and code generation. The course included in-class practices, integrative projects, and challenges to apply the knowledge. We also explored advanced topics like Machine Learning and cloud computing, along with key ethical considerations in AI."}
+                                </p>
+                            </div>
+                        }
+                    />
+
+
                 </ul>
             </div>
         </section>
