@@ -40,6 +40,16 @@
     "source": "https://github.com/guidogattas/vite-react-tw-todo-frontend-mentor/blob/main/README.md"
   },
   {
+    "id": 7,
+    "title": "Tu Service Ya - Plumbing Service Project",
+    "imageSrc": "projects/tu-service-ya.png",
+    "description": "This is a web page project created on demand, using React, Tailwind CSS, and React Router. The page is designed to provide information about plumbing services, including specific sections on Rowa pumps, general plumbing, and water heaters.",
+    "skills": ["React", "React Router", "Tailwind CSS"],
+    "demoStyle": "demo",
+    "demo": "https://tu-service-ya.vercel.app/",
+    "source": "https://github.com/guidogattas/tu-service-ya"
+  },
+  {
     "id": 5,
     "title": "Task Forms Project with Descriptions",
     "imageSrc": "projects/formulario-react.png",

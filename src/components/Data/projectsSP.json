@@ -37,11 +37,22 @@
     "skills": ["React", "Tailwind CSS", "Sass"],
     "demoStyle": "demo",
     "demo": "https://vite-react-tw-todo-frontend-mentor.netlify.app/",
-    "source": "https://github.com/guidogattas/vite-react-tw-todo-frontend-mentor/blob/main/README.md"
+    "source": "https://github.com/guidogattas/vite-react-tw-todo-frontend-mentor/"
   },
   {
+    "id": 7,
+    "title": "Proyecto Tu Service Ya - Servicio de Plomería",
+    "imageSrc": "projects/tu-service-ya.png",
+    "description": "Este es un proyecto de página web creado a pedido, con React, Tailwind CSS y React Router. La página está diseñada para ofrecer información sobre servicios de plomería, incluyendo secciones específicas sobre Bombas Rowa, plomería general y calefones/termotanques.",
+    "skills": ["React", "React Router", "Tailwind CSS"],
+    "demoStyle": "demo",
+    "demo": "https://github.com/guidogattas/Formulario-React",
+    "source": "https://github.com/guidogattas/tu-service-ya"
+  }
+  ,
+  {
     "id": 5,
-    "title": "Proyecto Formularios de tareas con descripciones. ",
+    "title": "Proyecto Formularios de tareas con descripciones.",
     "imageSrc": "projects/formulario-react.png",
     "description": "Proyecto similar al de Todo List, con algunas modificaciones, me sirvió para practicar para realizar el Todo List. Se utilizó Sweet Alert para mostrar al usuario las acciones realizadas.",
     "skills": ["React", "Tailwind CSS"],
