@@ -16,7 +16,7 @@
     "description": "This is a mobile application developed with React Native, Firebase, and Expo, which uses the TMDB API for movie search and exploration.",
     "skills": ["React Native", "Firebase", "Expo", "Redux"],
     "demoStyle": "apk",
-    "demo": "https://expo.dev/artifacts/eas/u8QrmwiS8GbGXfLrqoAw95.apk",
+    "demo": "https://expo.dev/artifacts/eas/8asAfXdrTDVF5sYrwTWfs3.apk",
     "source": "https://github.com/guidogattas/react-native-ecommerce-coderhouse-gattas"
   },
   {
