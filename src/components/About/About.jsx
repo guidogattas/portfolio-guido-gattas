@@ -9,30 +9,17 @@ export const About = () => {
     return (
         <section id='about' className={styles.container}>
             <h2 className={styles.title}>
-                {language === 'es' ? 'CURSOS REALIZADOS' : 'COMPLETED COURSES'}
+                {language === 'es' ? 'FORMACIÓN Y CURSOS' : 'EDUCATION & COURSES'}
             </h2>
             <div className={styles.content}>
                 <ul className={styles.aboutItems}>
                     <AboutCard
-                        iconImg="img/CoderHouse.png"
-                        title={language === 'es' ? "Desarrollo Web: HTML, CSS y Maquetación Web" : "Web Development: HTML, CSS, and Web Layout"}
-                        description={
-                            <ul>
-                                <li>
-                                    {language === 'es'
-                                        ? "Durante este curso, me adentré en los fundamentos esenciales del desarrollo web, enfocándome en HTML para la estructura y CSS para el diseño (utilizando SASS). Además, dominé técnicas avanzadas de maquetación web, como CSS Grid y Flexbox, para desarrollar diseños responsivos y adaptables. A lo largo del programa, implementé prácticas de accesibilidad y optimización para mejorar la experiencia del usuario y el rendimiento del sitio. Además, utilicé Figma para diseñar y prototipar interfaces web de manera efectiva."
-                                        : "During this course, I delved into the essential fundamentals of web development, focusing on HTML for structure and CSS for design (using SASS). I also mastered advanced web layout techniques, such as CSS Grid and Flexbox, to develop responsive and adaptable designs. Throughout the program, I implemented accessibility and optimization practices to enhance user experience and site performance. Additionally, I used Figma to effectively design and prototype web interfaces."}
-                                </li>
-                            </ul>
-                        }
-                    />
-                    <AboutCard
-                        iconImg="img/CoderHouse.png"
-                        title={language === 'es' ? "Desarrollo Web: JavaScript" : "Web Development: JavaScript"}
+                        iconImg="img/ba_logo.webp"
+                        title={language === 'es' ? 'Tecnicatura Superior en Desarrollo de Software (cursando)' : 'Higher Technical Degree in Software Development (currently)'}
                         description={
                             language === 'es'
-                                ? "Este curso me introdujo en JavaScript, explorando su potencial para crear interactividad en sitios web. Aprendí a manipular el DOM, responder a eventos del usuario y trabajar con funciones de orden superior. Además, exploré la manipulación de arrays, objetos y la integración con APIs externas. Los proyectos prácticos me permitieron aplicar estos conocimientos."
-                                : "This course introduced me to JavaScript, exploring its potential to create interactivity on websites. I learned to manipulate the DOM, respond to user events, and work with higher-order functions. I also explored manipulating arrays, objects, and integrating with external APIs. The practical projects allowed me to apply this knowledge."
+                                ? 'La formación cubre programación, bases de datos, matemática y lógica, programación orientada a objetos, desarrollo móvil, pruebas de sistemas, desarrollo web front y back end, cloud, ingeniería de software, redes y gestión de proyectos. Me prepara para diseñar, construir, verificar, depurar y mantener software en equipos multidisciplinarios orientados a proyectos.'
+                                : 'The curriculum covers programming, databases, math and logic, object-oriented systems, mobile development, system testing, web front and back end, cloud, software engineering, networking, and project management. It prepares me to design, build, test, debug, and maintain software in multidisciplinary, project-driven teams.'
                         }
                     />
                     <AboutCard
@@ -77,6 +64,28 @@ export const About = () => {
                         link="https://www.udemy.com/course/curso-react-js/"
                     />
                     <AboutCard
+                        iconImg="img/CoderHouse.png"
+                        title={language === 'es' ? "Desarrollo Web: HTML, CSS y Maquetación Web" : "Web Development: HTML, CSS, and Web Layout"}
+                        description={
+                            <ul>
+                                <li>
+                                    {language === 'es'
+                                        ? "Durante este curso, me adentré en los fundamentos esenciales del desarrollo web, enfocándome en HTML para la estructura y CSS para el diseño (utilizando SASS). Además, dominé técnicas avanzadas de maquetación web, como CSS Grid y Flexbox, para desarrollar diseños responsivos y adaptables. A lo largo del programa, implementé prácticas de accesibilidad y optimización para mejorar la experiencia del usuario y el rendimiento del sitio. Además, utilicé Figma para diseñar y prototipar interfaces web de manera efectiva."
+                                        : "During this course, I delved into the essential fundamentals of web development, focusing on HTML for structure and CSS for design (using SASS). I also mastered advanced web layout techniques, such as CSS Grid and Flexbox, to develop responsive and adaptable designs. Throughout the program, I implemented accessibility and optimization practices to enhance user experience and site performance. Additionally, I used Figma to effectively design and prototype web interfaces."}
+                                </li>
+                            </ul>
+                        }
+                    />
+                    <AboutCard
+                        iconImg="img/CoderHouse.png"
+                        title={language === 'es' ? "Desarrollo Web: JavaScript" : "Web Development: JavaScript"}
+                        description={
+                            language === 'es'
+                                ? "Este curso me introdujo en JavaScript, explorando su potencial para crear interactividad en sitios web. Aprendí a manipular el DOM, responder a eventos del usuario y trabajar con funciones de orden superior. Además, exploré la manipulación de arrays, objetos y la integración con APIs externas. Los proyectos prácticos me permitieron aplicar estos conocimientos."
+                                : "This course introduced me to JavaScript, exploring its potential to create interactivity on websites. I learned to manipulate the DOM, respond to user events, and work with higher-order functions. I also explored manipulating arrays, objects, and integrating with external APIs. The practical projects allowed me to apply this knowledge."
+                        }
+                    />
+                    <AboutCard
                         iconImg="img/Udemy-Logo.png"
                         title={language === 'es' ? "Adobe Photoshop CC" : "Adobe Photoshop CC"}
                         description={
@@ -116,6 +125,8 @@ export const About = () => {
                             </div>
                         }
                     />
+
+
 
 
                 </ul>
